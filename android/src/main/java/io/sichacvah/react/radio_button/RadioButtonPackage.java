@@ -13,7 +13,7 @@ import java.util.Collections;
 import java.util.List;
 
 
-public class ComponentsPackage implements ReactPackage {
+public class RadioButtonPackage implements ReactPackage {
   @Override
   public List<NativeModule> createNativeModules(ReactApplicationContext reactApplicationContext) {
     return Collections.emptyList();
