@@ -1,8 +1,16 @@
 package io.sichacvah.react.radio_button;
 
+import android.os.Build;
+import com.facebook.react.uimanager.annotations.ReactProp;
 import com.facebook.react.uimanager.SimpleViewManager;
+import com.facebook.react.uimanager.ThemedReactContext;
+import android.app.Activity;
 
+import android.support.v4.view.ViewPager;
 import android.view.View;
+
+import javax.annotation.Nullable;
+import java.util.Map;
 
 import android.view.ViewGroup;
 import android.widget.CompoundButton;
@@ -17,6 +25,9 @@ import com.facebook.react.uimanager.ThemedReactContext;
 import com.facebook.react.uimanager.UIManagerModule;
 import com.facebook.react.uimanager.ViewProps;
 import com.facebook.react.uimanager.annotations.ReactProp;
+
+
+
 
 public class RadioButtonManager extends SimpleViewManager<RadioButtonView> {
   private final static String REACT_CLASS = "RCTRadioButtonAndroid";
