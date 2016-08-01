@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import NativeMethodsMixin from 'NativeMethodsMixin';
 
-class RadioButton extends React.Compnent {
+class RadioButton extends React.Component {
   constructor(props, context) {
     super(props, context);
     this._rctRadioButton = {};
