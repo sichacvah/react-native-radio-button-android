@@ -8,7 +8,7 @@ import {
   Dimensios,
   requireNativeComponent
 } from 'react-native';
-import NativeMethodsMixin from 'NativeMethodsMixin';
+//import NativeMethodsMixin from 'NativeMethodsMixin';
 
 class RadioButton extends React.Component {
   constructor(props, context) {
@@ -37,7 +37,7 @@ class RadioButton extends React.Component {
   }
 }
 
-RadioButton.mixins = [NativeMethodsMixin];
+//RadioButton.mixins = [NativeMethodsMixin];
 
 RadioButton.defaultProps = {
   value: false

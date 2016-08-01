@@ -1,6 +1,6 @@
 {
   "name": "react-native-radio-button-android",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Android native, and pure js for IOS",
   "nativePackage": true,
   "scripts": {
