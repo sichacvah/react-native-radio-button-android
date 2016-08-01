@@ -6,7 +6,7 @@ Native Android radio-button component
 ## Installation
 
 ```
-npm i https://github.com/sichacvah/react-native-radio-button.git --save
+npm i react-native-radio-button-android --save
 ```
 
 1. ```android/settings.gradle```:: Add the following snippet
