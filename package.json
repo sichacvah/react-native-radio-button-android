@@ -1,6 +1,6 @@
 {
-  "name": "react-native-radio-button",
-  "version": "1.0.0",
+  "name": "react-native-radio-button-android",
+  "version": "1.0.1",
   "description": "Android native, and pure js for IOS",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sichacvah/react-native-radio-button.git"
+    "url": "git+ssh://git@github.com/sichacvah/react-native-radio-button-android.git"
   },
   "keywords": [
     "React",
@@ -16,12 +16,12 @@
     "JAVA",
     "Javascript"
   ],
-  "author": "Kurochkin Sergey",
+  "author": "sichacvah",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sichacvah/react-native-radio-button/issues"
+    "url": "https://github.com/sichacvah/react-native-radio-button-android/issues"
   },
-  "homepage": "https://github.com/sichacvah/react-native-radio-button#readme",
+  "homepage": "https://github.com/sichacvah/react-native-radio-button-android#readme",
   "devDependencies": {
     "react": "^15.3.0",
     "react-native": "^0.30.0"
