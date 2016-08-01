@@ -37,13 +37,13 @@ class RadioButton extends React.Component {
   }
 }
 
-RadioButtonAndroid.mixins = [NativeMethodsMixin];
+RadioButton.mixins = [NativeMethodsMixin];
 
-RadioButtonAndroid.defaultProps = {
+RadioButton.defaultProps = {
   value: false
 };
 
-RadioButtonAndroid.propTypes = {
+RadioButton.propTypes = {
   value: React.PropTypes.bool,
   text: React.PropTypes.string,
   onValueChange: React.PropTypes.func,
