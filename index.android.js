@@ -50,4 +50,7 @@ RadioButton.propTypes = {
   ...View.propTypes
 };
 
+CTRadioButton = requireNativeComponent('RCTRadioButtonAndroid', RadioButtonAndroid, {
+ nativeOnly: { onChange: true, on: true } 
+});
 export default RadioButton;
