@@ -19,7 +19,7 @@ project(':react-native-radio-button-android').projectDir = new File(rootProject.
 ```gradle
 dependences {
   ...
-  compile project(':react-native-radio-button')
+  compile project(':react-native-radio-button-android')
 }
 ```
 3. ```android/app/src/main/java/com/<your_app>/MainActivity.java```: Import package and add to react list of packages.
