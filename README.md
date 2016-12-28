@@ -34,3 +34,5 @@ protected List<ReactPackage> getPackages() {
   );
 }
 ```
+
+### License: ISC
