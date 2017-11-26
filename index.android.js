@@ -1,13 +1,11 @@
-'use strict';
-
 import React from 'react';
-
+import PropTypes from 'prop-types'
 import {
   View,
   StyleSheet,
-  requireNativeComponent
+  requireNativeComponent,
+  ViewPropTypes
 } from 'react-native';
-//import NativeMethodsMixin from 'NativeMethodsMixin';
 
 class RadioButton extends React.Component {
 
@@ -46,11 +44,11 @@ const styles = StyleSheet.create({
 });
 
 RadioButton.propTypes = {
-  value: React.PropTypes.bool,
-  text: React.PropTypes.string,
-  onValueChange: React.PropTypes.func,
-  disabled: React.PropTypes.bool,
-  ...View.propTypes
+  value: PropTypes.bool,
+  text: PropTypes.string,
+  onValueChange: PropTypes.func,
+  disabled: PropTypes.bool,
+  ...ViewPropTypes
 };
 
 const RCTRadioButton = requireNativeComponent('RCTRadioButtonAndroid', RadioButton, {

@@ -2,9 +2,9 @@ package io.sichacvah.react.radio_button;
 
 
 import android.content.Context;
-import android.widget.RadioButton;
+import android.support.v7.widget.AppCompatRadioButton;
 
-public class RadioButtonView extends RadioButton {
+public class RadioButtonView extends AppCompatRadioButton {
   private boolean mAllowChange;
 
   public RadioButtonView(Context context) {
