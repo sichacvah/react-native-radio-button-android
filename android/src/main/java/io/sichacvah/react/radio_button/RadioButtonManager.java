@@ -3,6 +3,9 @@ package io.sichacvah.react.radio_button;
 import com.facebook.react.uimanager.annotations.ReactProp;
 import com.facebook.react.uimanager.SimpleViewManager;
 import com.facebook.react.uimanager.ThemedReactContext;
+
+import android.content.res.ColorStateList;
+import android.support.v4.widget.CompoundButtonCompat;
 import android.widget.CompoundButton;
 import android.content.ContextWrapper;
 
@@ -18,7 +21,7 @@ public class RadioButtonManager extends SimpleViewManager<RadioButtonView> {
 
   private static final CompoundButton.OnCheckedChangeListener ON_CHECKED_CHANGE_LISTENER =
     new CompoundButton.OnCheckedChangeListener() {
-      @Override 
+      @Override
       public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
         ReactContext reactContext = (ReactContext) ((ContextWrapper) buttonView.getContext()).getBaseContext();
         reactContext.getNativeModule(UIManagerModule.class).getEventDispatcher().dispatchEvent(
@@ -59,4 +62,8 @@ public class RadioButtonManager extends SimpleViewManager<RadioButtonView> {
     checkbox.setEnabled(!disabled);
   }
 
+  @ReactProp(name = "color", customType = "Color")
+  public void setColor(RadioButtonView checkbox, Integer color) {
+    CompoundButtonCompat.setButtonTintList(checkbox, ColorStateList.valueOf(color));
+  }
 }
