@@ -1,27 +1,27 @@
 {
-  "name": "react-native-radio-button-android",
-  "version": "1.0.4",
-  "description": "Android native, and pure js for IOS",
+  "name": "@rh389/react-native-radio-button",
+  "version": "1.1.0",
+  "description": "A controlled radio button for React Native which uses a native component on android",
   "nativePackage": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/sichacvah/react-native-radio-button-android.git"
+    "url": "git+ssh://git@github.com/rh389/react-native-radio-button.git"
   },
   "keywords": [
-    "React",
-    "Native",
-    "JAVA",
-    "Javascript"
+    "react-native",
+    "android",
+    "ios",
+    "radio"
   ],
-  "author": "sichacvah",
+  "author": "sichacvah and rh389",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sichacvah/react-native-radio-button-android/issues"
+    "url": "https://github.com/rh389/react-native-radio-button/issues"
   },
-  "homepage": "https://github.com/sichacvah/react-native-radio-button-android#readme",
+  "homepage": "https://github.com/rh389/react-native-radio-button#readme",
   "devDependencies": {
     "react": "^15.3.0",
     "react-native": "^0.30.0"
