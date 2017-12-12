@@ -23,6 +23,7 @@ class RadioButton extends React.Component {
         ref={'RCTRadioButton'}
         style={[this.props.style, styles.radioButton]}
         on={this.props.value}
+        color={this.props.color}
         disabled={this.props.disabled}
         onChange={this._onChange}
         />
@@ -47,6 +48,7 @@ RadioButton.propTypes = {
   value: PropTypes.bool,
   text: PropTypes.string,
   onValueChange: PropTypes.func,
+  color: PropTypes.string,
   disabled: PropTypes.bool,
   ...ViewPropTypes
 };
