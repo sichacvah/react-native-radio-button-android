@@ -1,3 +1,5 @@
+# NOTE: this repo is no longer maintained, development has moved [here](https://github.com/vonovak/react-native-radio-button-android)
+
 # React Native Radio button for Android
 
 Native Android radio-button component, originally forked from https://github.com/sichacvah/react-native-radio-button-android
